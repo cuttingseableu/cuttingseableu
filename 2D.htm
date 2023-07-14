@@ -1,0 +1,1313 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+  <head>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <title>Two Devils</title>
+    <style type="text/css">
+            *
+            {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            vertical-align: top;
+            }
+            body
+            {
+            color-adjust: exact !important;
+            -webkit-print-color-adjust: exact !important;
+            print-color-adjust: exact !important;
+            }
+            hr
+            {
+            color: lightgrey;
+            height: 1px;
+            margin-left: 2px;
+            margin-right: 2px;
+            }
+            ul
+            {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-left: 20px;
+            padding-left: 0px;
+            list-style-type: none;
+            }
+            li
+            {
+            margin-top: 2px;
+            }
+            .fill33
+            {
+            width: 33%;
+            }
+            .fill66
+            {
+            width: 66%;
+            }
+            {
+            .fill100
+            width: 100%;
+            }
+            table.stats
+            {
+            border-style: solid;
+            border-width: 1px;
+            border-color: grey;
+            width: 100%;
+            border-collapse: collapse;
+            }
+            table.stats td
+            {
+            padding: 2px;
+            }
+            table.stats .bigheader
+            {
+            color: white;
+            background-color: grey;
+            font-weight: normal;
+            font-variant: small-caps;
+            font-size: 110%;
+            text-align: center;
+            padding-top: 1px;
+            padding-bottom: 2px;
+            }
+            tr:nth-child(odd) {
+            background: #eee
+            }
+            .smallheader
+            {
+            color: grey;
+            font-weight: bold;
+            }
+            td
+            {
+            page-break-inside: avoid;
+            }
+            strong
+            {
+            font-size: 105%;
+            }
+            @media screen
+            {
+            .page_breaker_off, .page_breaker_on
+            {
+            display: initial;
+            text-align: left;
+            }
+            .page_breaker_off td, .page_breaker_on td
+            {
+            border-style: solid;
+            border-width: 1px;
+            border-color: lightgrey;
+            }
+            }
+            @media print
+            {
+            *
+            {
+            font-size: 10px;
+            }
+            .page_breaker_off
+            {
+            page-break-before: auto;
+            display: none;
+            }
+            .page_breaker_on
+            {
+            page-break-before: always;
+            visibility: hidden;
+            }
+            .noprint
+            {
+            display: none;
+            }
+            }
+            .mugshot {
+            height: auto;
+            width: auto;
+            max-width: 100%;
+            object-fit: scale-down;
+            image-rendering: optimizeQuality;
+            }
+            @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+            .mugshot {
+            height: auto;
+            width: inherit;
+            max-width: 100%;
+            object-fit: scale-down;
+            }
+            }
+        </style>
+    <style type="text/css" id="style_colored_headers">
+          table.general {border-color: #6a6f29;}
+          table.general .bigheader {background-color: #6a6f29;}
+          table.general hr {color: #6a6f29;}
+          table.armory {border-color: #9e2121;}
+          table.armory .bigheader {background-color: #9e2121;}
+          table.armory hr {color: #9e2121;}
+          table.machine {border-color: #512b1b;}
+          table.machine .bigheader {background-color: #512b1b;}
+          table.machine hr {color: #512b1b;}
+          table.magic {border-color: #00afef;}
+          table.magic .bigheader {background-color: #00afef;}
+          table.magic hr {color: #00afef;}
+          table.matrix {border-color: #eb7907;}
+          table.matrix .bigheader {background-color: #eb7907;}
+          table.matrix hr {color: #eb7907;}
+          table.gear {border-color: #92509e;}
+          table.gear .bigheader {background-color: #92509e;}
+          table.gear hr {color: #92509e;}
+          table.description {border-color: #00693b;}
+          table.description .bigheader {background-color: #00693b;}
+          table.description hr {color: #00693b;}
+        </style><script type="text/javascript">
+            function toggle_page_breaker(breaker) {
+              if (breaker.className == 'page_breaker_off') {
+                breaker.className = 'page_breaker_on';
+                breaker.getElementsByTagName('span')[0].innerHTML = 'ON';
+              }
+              else {
+                breaker.className = 'page_breaker_off';
+                breaker.getElementsByTagName('span')[0].innerHTML = 'OFF';
+              }
+            }
+            function toggle_colors() {
+              var ss = document.getElementById('style_colored_headers');
+              ss.disabled = !ss.disabled;
+            }
+          </script></head>
+  <body>
+    <table id="maintable">
+      <tr>
+        <td class="fill100 noprint"><button onClick="toggle_colors();">Personal Data</button></td>
+      </tr>
+      <tr>
+        <td class="fill33">
+          <table class="stats general">
+            <tr>
+              <td colspan="4">
+                <div class="bigheader">[Personal Data]</div>
+              </td>
+            </tr>
+            <tr>
+              <td>Name</td>
+              <td colspan="3"><strong>Anja Waukeen</strong></td>
+            </tr>
+            <tr>
+              <td>Alias</td>
+              <td colspan="3"><strong>Two Devils</strong></td>
+            </tr>
+            <tr>
+              <td>Metatype</td>
+              <td colspan="3"><strong>Elf</strong></td>
+            </tr>
+            <tr>
+              <td>Gender</td>
+              <td><strong>Female</strong></td>
+              <td>Special</td>
+              <td><strong>Mystic Adept</strong></td>
+            </tr>
+            <tr>
+              <td style="white-space: nowrap;">Age</td>
+              <td style="white-space: nowrap;"><strong>20</strong></td>
+              <td style="white-space: nowrap;">Skin</td>
+              <td style="white-space: nowrap;"><strong>Tan</strong></td>
+            </tr>
+            <tr>
+              <td style="white-space: nowrap;">Hair</td>
+              <td style="white-space: nowrap;"><strong>Black</strong></td>
+              <td style="white-space: nowrap;">Eyes</td>
+              <td style="white-space: nowrap;"><strong>Brown</strong></td>
+            </tr>
+            <tr>
+              <td style="white-space: nowrap;">Height</td>
+              <td style="white-space: nowrap;"><strong>6'1''</strong></td>
+              <td style="white-space: nowrap;">Weight</td>
+              <td style="white-space: nowrap;"><strong>135</strong></td>
+            </tr>
+            <tr>
+              <td colspan="4">
+                <hr>
+              </td>
+            </tr>
+            <tr>
+              <td style="white-space: nowrap;">Karma</td>
+              <td style="white-space: nowrap;"><strong>1</strong></td>
+              <td style="white-space: nowrap;">Nuyen</td>
+              <td style="white-space: nowrap;"><strong>3,635¥</strong></td>
+            </tr>
+            <tr>
+              <td style="white-space: nowrap;">Street Cred</td>
+              <td style="white-space: nowrap;"><strong>0</strong></td>
+              <td style="white-space: nowrap;">Career Karma</td>
+              <td style="white-space: nowrap;"><strong>0</strong></td>
+            </tr>
+            <tr>
+              <td style="white-space: nowrap;">Notoriety</td>
+              <td style="white-space: nowrap;"><strong>0</strong></td>
+              <td style="white-space: nowrap;">Public Awareness</td>
+              <td style="white-space: nowrap;"><strong>0</strong></td>
+            </tr>
+            <tr>
+              <td colspan="4">
+                <hr>
+              </td>
+            </tr>
+            <tr>
+              <td style="white-space: nowrap;">Composure</td>
+              <td style="white-space: nowrap;"><strong>13</strong></td>
+              <td style="white-space: nowrap;">Judge Intentions</td>
+              <td style="white-space: nowrap;"><strong>13</strong></td>
+            </tr>
+            <tr>
+              <td style="white-space: nowrap;">Memory</td>
+              <td style="white-space: nowrap;"><strong>7</strong></td>
+              <td style="white-space: nowrap;">Lift/Carry</td>
+              <td style="white-space: nowrap;"><strong>4</strong></td>
+            </tr>
+            <tr>
+              <td style="white-space: nowrap;">Movement</td>
+              <td><strong>12/24; 2m / hit, Swim: 3.5; 1m / hit</strong></td>
+              <td style="white-space: nowrap;">Lift/Carry Weight</td>
+              <td style="white-space: nowrap;"><strong>15/10</strong></td>
+            </tr>
+            <tr>
+              <td colspan="4">
+                <hr>
+              </td>
+            </tr>
+            <tr>
+              <td style="white-space: nowrap;">Physical Limit</td>
+              <td style="white-space: nowrap;"><strong>3</strong></td>
+              <td style="white-space: nowrap;">Mental Limit</td>
+              <td style="white-space: nowrap;"><strong>5</strong></td>
+            </tr>
+            <tr>
+              <td style="white-space: nowrap;">Social Limit</td>
+              <td style="white-space: nowrap;"><strong>9</strong></td>
+              <td style="white-space: nowrap;">Astral Limit</td>
+              <td style="white-space: nowrap;"><strong>9</strong></td>
+            </tr>
+          </table>
+        </td>
+        <td class="fill33">
+          <table class="stats general">
+            <tr>
+              <td colspan="4">
+                <div class="bigheader">[Attributes]</div>
+              </td>
+            </tr>
+            <tr>
+              <td style="white-space: nowrap;">Body</td>
+              <td style="white-space: nowrap;"><strong>3</strong></td>
+              <td style="white-space: nowrap;">Willpower</td>
+              <td style="white-space: nowrap;"><strong>5</strong></td>
+            </tr>
+            <tr>
+              <td style="white-space: nowrap;">Agility</td>
+              <td style="white-space: nowrap;"><strong>6</strong></td>
+              <td style="white-space: nowrap;">Logic</td>
+              <td style="white-space: nowrap;"><strong>2</strong></td>
+            </tr>
+            <tr>
+              <td style="white-space: nowrap;">Reaction</td>
+              <td style="white-space: nowrap;"><strong>1
+                    (2)
+                  </strong></td>
+              <td style="white-space: nowrap;">Intuition</td>
+              <td style="white-space: nowrap;"><strong>5</strong></td>
+            </tr>
+            <tr>
+              <td style="white-space: nowrap;">Strength</td>
+              <td style="white-space: nowrap;"><strong>1</strong></td>
+              <td style="white-space: nowrap;">Charisma</td>
+              <td style="white-space: nowrap;"><strong>8</strong></td>
+            </tr>
+            <tr>
+              <td style="white-space: nowrap;">Edge</td>
+              <td style="white-space: nowrap;"><strong>1</strong></td>
+              <td style="white-space: nowrap;">Essence</td>
+              <td style="white-space: nowrap;"><strong>6.00</strong></td>
+            </tr>
+            <tr>
+              <td style="white-space: nowrap;">Magic</td>
+              <td style="white-space: nowrap;"><strong>6</strong></td>
+              <td colspan="2"></td>
+            </tr>
+            <tr>
+              <td colspan="4">
+                <hr>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">Initiative</td>
+              <td colspan="2"><strong>7 +2d6</strong></td>
+            </tr>
+            <tr>
+              <td colspan="2">Astral Initiative</td>
+              <td colspan="2"><strong>10 +3d6</strong></td>
+            </tr>
+            <tr>
+              <td colspan="2">Rigger Initiative</td>
+              <td colspan="2"><strong>7 +2d6</strong></td>
+            </tr>
+            <tr>
+              <td colspan="2">Matrix AR</td>
+              <td colspan="2"><strong>7 +2d6</strong></td>
+            </tr>
+            <tr>
+              <td colspan="2">Matrix Cold</td>
+              <td colspan="2"><strong>6 +3d6</strong></td>
+            </tr>
+            <tr>
+              <td colspan="2">Matrix Hot</td>
+              <td colspan="2"><strong>6 +4d6</strong></td>
+            </tr>
+            <tr>
+              <td colspan="4">
+                <hr>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="3">Physical Damage Track</td>
+              <td><strong>10</strong></td>
+            </tr>
+            <tr>
+              <td colspan="3">Overflow</td>
+              <td><strong>3</strong></td>
+            </tr>
+            <tr>
+              <td colspan="3">Natural Recovery Pool (1 day)</td>
+              <td><strong>6</strong></td>
+            </tr>
+            <tr>
+              <td colspan="3">Stun Damage Track</td>
+              <td>11</td>
+            </tr>
+            <tr>
+              <td colspan="3">Natural Recovery Pool (1 hour)</td>
+              <td>8</td>
+            </tr>
+          </table>
+        </td>
+        <td class="fill33">
+          <table class="stats general">
+            <tr>
+              <td colspan="2">
+                <div class="bigheader">[Portrait]</div>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" style="text-align:center; width: 100%;"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDAAcFBgYGBQcGBgYICAcJCxIMCwoKCxcQEQ0SGxccHBoXGhkdISokHR8oIBkaJTIlKCwtLzAvHSM0ODQuNyouLy7/2wBDAQgICAsKCxYMDBYuHhoeLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi7/wAARCALXA6wDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDweiiigApaQUtABSUppKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigApRSUtABSUtFACUUtJQAUUUUAFJS0UAJRS0UAIKWgClxQAlFFFADH6Uynv0plABRRRQAoooFLQAw0hpT1pKAEopcUUAJS0UUAFFFFAC0UlFABRRRQA09aKKKAENFBooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACloooAKKKKAAUtIKWgAooooAKKKKALNFFFAAKWkFKaAEooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAClpKUUAFFFFABRRRQAUUUUAJRS0UAJRS0UAKKKKKADNJS0UAMfpUdTMPlNRUAJS0tFACUUUtADD1pKU9aSgAooooASilpKACiiigAooooAKKKKAG0UUUAIaKDRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRS0AJS0UUAFFFFABRRRQAClpBS0AFFFFABRRRQBZooooABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAtFAooAKKM0m5fUUALRSZHrS0AFFFFABRRQKAFooooAKKKDQAHpUVSVEetAC0hoooAKWkooAa3WkpW60lABRRRQAUUUUAFJS5pKACiiigAooooAbRRRQAhooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACilooAKKKKACiiigAooooAKKKKAClpKBQAtFFFABRRRQBZooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoopCwHU0ALRUD3KDp8x9qiMsz9PlFAFskDqQKYZox/Fn6VXCZ+8ST707CigCTzx2U/jS+Yai3KKTzB2FAEvmN6Um9/WowxP8ADThmgB25/X9KNx9vypKWgBpGaZ5Y9TUtFAEapjuakDGikoAeHpwcVFSZFAFgMKeKq596XJ7GgCzRUAkYe9PWUHrxQBJQaAQelBoASo361JTX6UAR0UUUAFFFFACNTac3Sm0ALRSUUAFFFFABRRRQAUUUUAFFFFADSKKU9aSgBKKWigBKKKKACiiigAooooAKKKWgBKKWigBKKDRQAtFJmigBaKSloAKKKKACiiigAooooAKKKKACiiigBaKQUtABRRRQBZooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKDSMyoMsaga43H92ufftQBYJA61A1zGDgfN9KrsskjfM/5VIsaIOBzQApklccDaPemeVn7zE08n0pD70wE2otJvx0oIz0oC0AJuY0Yz1NPxRxQA0BB70u4dloyKNwoAXef7tG5vSjI9aMigA3N6UuW9KXNLQAm4+lLu9qKKAHZFKAKZRSGSbRQUpgJpwcigBpT2pu30NTBx3pcKaAIPmHvSbh3GKnKelMK+ooENU+hqQS/wB6oTH/AHTik3EcMKALYYHpQeRVYYPKmpA5HWgAopTSUAFFFFAAaZT6aetACUUUUAFFFFABRRRQAUUUUAFFFFACGkpTSUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFJS0lABRRRQAUUUUAFLSCloAKKKKACiiigAooooAKKKKAClpKBQAtFFFAFmiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKWkoAKKKKACiiigAooooAKiklx8qDc1KxLcA4X19ajZ1TgDmgBnlFjumb8KQnJ2R9KY7s3epEXavuaYDhwKQ0VNBCZHA7d6AIgpPQUhHNaUvlwx9PoKziSWzSCwlNJPapQR/EKd5Y6qaYWIApPU07ZTypHak5FADdntRgf3aduNKGHcUAN+T+7S7UNSbA3SmmMigY3yx2pPL96XkU4NQGgzDUvPcU+lpDsR5FOp2BSbR2oFYTFGKMEUUAFJS0UAKGNP3A9aZSEUAPK+lNI9RSAkdKcGB68GgCFoyOVpA/ZuDU5FNZQ3WgBBx06U4c9PyqHDRn1WnqQ3SgQ+ikz68infyoASkaloPSgBlFFFABRRRQAUUUUAFFFFABRRRQAHpTadTaACiiigAooooAKKKKACiiigAooooAKKKKACkNLSGgAooooAKKKKACiiigBaKQUtABRRRQAUUUUAFFFFABRRRQAtFJRQBaooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKWkpaACg0UUAJRRRQAUUUUAITgVGTuPtSufyqu7ljtXpTAdLL/CtRBSeTTlQDr1pX6fWgBsYy2ewqShF6KKkZdpCDqetACRrxuPQVowqIotzdTyar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" class="mugshot"></td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <div class="bigheader">[Priorities]</div>
+              </td>
+            </tr>
+            <tr>
+              <td>Metatype</td>
+              <td><strong>C</strong></td>
+            </tr>
+            <tr>
+              <td>Attributes</td>
+              <td><strong>B</strong></td>
+            </tr>
+            <tr>
+              <td>Special</td>
+              <td><strong>C</strong></td>
+            </tr>
+            <tr>
+              <td>Skills</td>
+              <td><strong>B</strong></td>
+            </tr>
+            <tr>
+              <td>Resources</td>
+              <td><strong>E</strong></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td class="fill66" colspan="2">
+          <table class="stats general">
+            <tr>
+              <td colspan="2">
+                <div class="bigheader">[Active Skills]</div>
+              </td>
+            </tr>
+            <tr>
+              <td style="width:50%;">
+                <table style="width:100%; border-collapse: collapse;">
+                  <tr class="smallheader">
+                    <td>Skill</td>
+                    <td>Rtg</td>
+                    <td>Pool</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3"><strong><u>Combat Active Skills</u></strong></td>
+                  </tr>
+                  <tr>
+                    <td>Archery<span style="color:grey;"> AGI</span></td>
+                    <td>0</td>
+                    <td>5</td>
+                  </tr>
+                  <tr style="background-color:lightgrey;">
+                    <td>Automatics<span style="color:grey;"> AGI</span></td>
+                    <td>0</td>
+                    <td>5</td>
+                  </tr>
+                  <tr>
+                    <td>Blades<span style="color:grey;"> AGI</span></td>
+                    <td>0</td>
+                    <td>5</td>
+                  </tr>
+                  <tr style="background-color:lightgrey;">
+                    <td>Clubs<span style="color:grey;"> AGI</span></td>
+                    <td>0</td>
+                    <td>5</td>
+                  </tr>
+                  <tr>
+                    <td>Heavy Weapons<span style="color:grey;"> AGI</span></td>
+                    <td>0</td>
+                    <td>5</td>
+                  </tr>
+                  <tr style="background-color:lightgrey;">
+                    <td>Longarms<span style="color:grey;"> AGI</span></td>
+                    <td>0</td>
+                    <td>5</td>
+                  </tr>
+                  <tr>
+                    <td>Pistols<span style="color:grey;"> AGI</span></td>
+                    <td>0</td>
+                    <td>5</td>
+                  </tr>
+                  <tr style="background-color:lightgrey;">
+                    <td>Throwing Weapons<span style="color:grey;"> AGI</span></td>
+                    <td>0</td>
+                    <td>5</td>
+                  </tr>
+                  <tr>
+                    <td>Unarmed Combat<span style="color:grey;"> AGI</span></td>
+                    <td>0</td>
+                    <td>5</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3"><strong><u>Magical Active Skills</u></strong></td>
+                  </tr>
+                  <tr style="background-color:lightgrey;">
+                    <td>Assensing<span style="color:grey;"> INT</span><p style="padding-left: 1em">
+                  (Aura Reading +2)
+                </p>
+                    </td>
+                    <td>6</td>
+                    <td>11</td>
+                  </tr>
+                  <tr>
+                    <td>Spellcasting<span style="color:grey;"> MAG</span><p style="padding-left: 1em">
+                  (Manipulation +2)
+                </p>
+                    </td>
+                    <td>6</td>
+                    <td>12</td>
+                  </tr>
+                  <tr style="background-color:lightgrey;">
+                    <td>Summoning<span style="color:grey;"> MAG</span><p style="padding-left: 1em">
+                  (Spirits of Water +2)
+                </p>
+                    </td>
+                    <td>6</td>
+                    <td>12</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3"><strong><u>Physical Active Skills</u></strong></td>
+                  </tr>
+                  <tr>
+                    <td>Disguise<span style="color:grey;"> INT</span></td>
+                    <td>0</td>
+                    <td>4</td>
+                  </tr>
+                  <tr style="background-color:lightgrey;">
+                    <td>Diving<span style="color:grey;"> BOD</span></td>
+                    <td>0</td>
+                    <td>2</td>
+                  </tr>
+                  <tr>
+                    <td>Escape Artist<span style="color:grey;"> AGI</span></td>
+                    <td>0</td>
+                    <td>5</td>
+                  </tr>
+                  <tr style="background-color:lightgrey;">
+                    <td>Free-Fall<span style="color:grey;"> BOD</span></td>
+                    <td>0</td>
+                    <td>2</td>
+                  </tr>
+                  <tr>
+                    <td>Gymnastics<span style="color:grey;"> AGI</span></td>
+                    <td>0</td>
+                    <td>5</td>
+                  </tr>
+                  <tr style="background-color:lightgrey;">
+                    <td>Perception<span style="color:grey;"> INT</span><p style="padding-left: 1em">
+                  (Visual +2)
+                </p>
+                    </td>
+                    <td>1</td>
+                    <td>6</td>
+                  </tr>
+                  <tr>
+                    <td>Sneaking<span style="color:grey;"> AGI</span><p style="padding-left: 1em">
+                  (Urban +2)
+                </p>
+                    </td>
+                    <td>6</td>
+                    <td>12</td>
+                  </tr>
+                  <tr style="background-color:lightgrey;">
+                    <td>Survival<span style="color:grey;"> WIL</span></td>
+                    <td>0</td>
+                    <td>4</td>
+                  </tr>
+                  <tr>
+                    <td>Tracking<span style="color:grey;"> INT</span></td>
+                    <td>0</td>
+                    <td>4</td>
+                  </tr>
+                </table>
+              </td>
+              <td style="width:50%;">
+                <table style="width:100%; border-collapse: collapse;">
+                  <tr class="smallheader">
+                    <td>Skill</td>
+                    <td>Rtg</td>
+                    <td>Pool</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3"><strong><u>Social Active Skills</u></strong></td>
+                  </tr>
+                  <tr style="background-color:lightgrey;">
+                    <td>Con<span style="color:grey;"> CHA</span><p style="padding-left: 1em">
+                  (Fast Talk +2)
+                </p>
+                    </td>
+                    <td>6</td>
+                    <td>16</td>
+                  </tr>
+                  <tr>
+                    <td>Etiquette*<span style="color:grey;"> CHA</span></td>
+                    <td>5</td>
+                    <td>13</td>
+                  </tr>
+                  <tr style="background-color:lightgrey;">
+                    <td>Impersonation<span style="color:grey;"> CHA</span></td>
+                    <td>0</td>
+                    <td>7</td>
+                  </tr>
+                  <tr>
+                    <td>Instruction<span style="color:grey;"> CHA</span></td>
+                    <td>0</td>
+                    <td>7</td>
+                  </tr>
+                  <tr style="background-color:lightgrey;">
+                    <td>Intimidation<span style="color:grey;"> CHA</span></td>
+                    <td>0</td>
+                    <td>7</td>
+                  </tr>
+                  <tr>
+                    <td>Leadership*<span style="color:grey;"> CHA</span></td>
+                    <td>5</td>
+                    <td>13</td>
+                  </tr>
+                  <tr style="background-color:lightgrey;">
+                    <td>Negotiation*<span style="color:grey;"> CHA</span></td>
+                    <td>5</td>
+                    <td>13</td>
+                  </tr>
+                  <tr>
+                    <td>Performance<span style="color:grey;"> CHA</span></td>
+                    <td>0</td>
+                    <td>7</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3"><strong><u>Technical Active Skills</u></strong></td>
+                  </tr>
+                  <tr style="background-color:lightgrey;">
+                    <td>Animal Handling<span style="color:grey;"> CHA</span></td>
+                    <td>0</td>
+                    <td>7</td>
+                  </tr>
+                  <tr>
+                    <td>Armorer<span style="color:grey;"> LOG</span></td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr style="background-color:lightgrey;">
+                    <td>Computer<span style="color:grey;"> LOG</span></td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td>Cybercombat<span style="color:grey;"> LOG</span></td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr style="background-color:lightgrey;">
+                    <td>Demolitions<span style="color:grey;"> LOG</span></td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td>First Aid<span style="color:grey;"> LOG</span></td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr style="background-color:lightgrey;">
+                    <td>Forgery<span style="color:grey;"> LOG</span></td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td>Hacking<span style="color:grey;"> LOG</span></td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr style="background-color:lightgrey;">
+                    <td>Navigation<span style="color:grey;"> INT</span></td>
+                    <td>0</td>
+                    <td>4</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3"><strong><u>Vehicle Active Skills</u></strong></td>
+                  </tr>
+                  <tr>
+                    <td>Gunnery<span style="color:grey;"> AGI</span></td>
+                    <td>0</td>
+                    <td>5</td>
+                  </tr>
+                  <tr style="background-color:lightgrey;">
+                    <td>Pilot Ground Craft<span style="color:grey;"> REA</span></td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td>Pilot Watercraft<span style="color:grey;"> REA</span></td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3"><strong><u> Skill Groups</u></strong></td>
+                  </tr>
+                  <tr>
+                    <td valign="top" style="valign: top; text-align: right;">
+                    * Influence</td>
+                    <td colspan="2" style="valign: top; text-align: center;">5</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td class="fill33">
+          <table class="stats general">
+            <tr>
+              <td colspan="3">
+                <div class="bigheader">[Knowledge Skills]</div>
+              </td>
+            </tr>
+            <tr class="smallheader">
+              <td>Skill</td>
+              <td>Rtg</td>
+              <td>Pool</td>
+            </tr>
+            <tr>
+              <td colspan="3"><strong><u>Language</u></strong></td>
+            </tr>
+            <tr>
+              <td>Algonkin</td>
+              <td>1</td>
+              <td>6</td>
+            </tr>
+            <tr style="background-color:lightgrey;">
+              <td>English</td>
+              <td colspan="2">Native</td>
+            </tr>
+            <tr>
+              <td>Russian</td>
+              <td>1</td>
+              <td>6</td>
+            </tr>
+            <tr style="background-color:lightgrey;">
+              <td>Salish</td>
+              <td>1</td>
+              <td>6</td>
+            </tr>
+            <tr>
+              <td>Sperethiel</td>
+              <td>1</td>
+              <td>6</td>
+            </tr>
+            <tr>
+              <td colspan="3"><strong><u>Street</u></strong></td>
+            </tr>
+            <tr style="background-color:lightgrey;">
+              <td>Area Knowledge: Seattle</td>
+              <td>1</td>
+              <td>6</td>
+            </tr>
+            <tr>
+              <td>Black Markets</td>
+              <td>1</td>
+              <td>6</td>
+            </tr>
+            <tr style="background-color:lightgrey;">
+              <td>Club Music</td>
+              <td>1</td>
+              <td>6</td>
+            </tr>
+            <tr>
+              <td>Critters</td>
+              <td>1</td>
+              <td>6</td>
+            </tr>
+            <tr style="background-color:lightgrey;">
+              <td>Radical Groups</td>
+              <td>1</td>
+              <td>6</td>
+            </tr>
+            <tr>
+              <td>Shadow Community</td>
+              <td>1</td>
+              <td>6</td>
+            </tr>
+            <tr style="background-color:lightgrey;">
+              <td>Smugglers</td>
+              <td>2</td>
+              <td>7</td>
+            </tr>
+            <tr>
+              <td>Vory</td>
+              <td>2</td>
+              <td>7</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td class="fill66" colspan="2">
+          <table class="stats general">
+            <tr>
+              <td colspan="2">
+                <div class="bigheader">[Qualities]</div>
+              </td>
+            </tr>
+            <tr class="smallheader">
+              <td>Positive</td>
+              <td>Negative</td>
+            </tr>
+            <tr>
+              <td style="width:50%;">
+                <ul style="margin-left:0px;">
+                  <li style="color:grey;">Low-Light Vision<span style="color:grey;"> SR5 66</span></li>
+                  <li>Chosen Follower<span style="color:grey;"> FA 35</span><br><span style="color:darkgreen;"><sup><i>CHOSEN FOLLOWER<br>10 KARMA<br>Minimum Requirements: Mentor Spirit quality Characters with this quality have earned the right to receive magical instruction from their mentor spirits by showing ceaseless devotion to their ideals. The wisdom bestowed by a mentor spirit is granted instantaneously as a potent vision delivered via the shared connection between the character and their mentor. This instruction can only be received once every three months during an equinox or a solstice event, and each type of instruction can only be received once per year. A character with this quality may ask their mentor spirit to aid them in one of the following ways:<br>• Learn two spells or rituals.<br>• Improve a magical active skill from rank 1 to rank 3.<br>• Reduce the training time for improving a magical active skill, skill group, or specialization by fifty percent.<br>• Reduce the training time for improving their Magic attribute by fifty percent.<br>• Improve an Academic knowledge skill related to Magic from rank 1 to rank 4.<br>• Ignore glitches or reduce critical glitches during Step 5 (Craft the Focus, p. 307, SR5) when crafting a single focus.<br>• Ignore glitches or reduce critical glitches during Step 7 (Seal the Ritual, p. 296, SR5) when performing a single ritual.<br>• Reduce the threshold for the Arcana + Logic Extended Test to create an ally spirit formula to (Force x 3); see p. 201, Street Grimoire.</i></sup></span></li>
+                  <li>Jack of All Trades Master of None<span style="color:grey;"> RF 147</span></li>
+                  <li>Mentor Spirit (Raven)<span style="color:grey;"> SR5 76</span><br><span style="color:darkgreen;"><sup><i>MENTOR SPIRIT<br>COST: 5 KARMA<br>Everyone needs some help in life, even if it comes from someone relatively filmy and insubstantial. Mentor Spirit means the character follows a patron spirit (see Mentor Spirits, p. 320) that guides him in his practice of magic and provides certain advantages and disadvantages to his natural abilities. A character may change mentor spirits, but he may have only one mentor spirit at a time. To change mentor spirits, the character must first buy off the current mentor spirit as if it were a Negative quality. He can then purchase the quality again to follow a different mentor spirit. This cost represents the toll of divorcing from one mentor spirit and bonding with a new one.<br>Each tradition has a different name for a mentor spirit. Hermetic mages prefer the term “mentor spirit,”<br>while shamans use the word “totem” for the spirit that they follow. While the names may vary, the way the mentor works is consistent.<br>This quality is only available to characters that possess a Magic attribute rating.<br></i></sup></span></li>
+                  <li>Mystic Adept<span style="color:grey;"> SR5 69</span><br><span style="color:darkgreen;"><sup><i>MYSTIC ADEPTS<br>• Mystic adepts are a combination of magicians and adepts.<br>• Mystic adepts never astrally project.<br>• Mystic adepts can astrally perceive if they purchase the Astral Perception adept power.<br>• Mystic adepts purchase their spells/rituals/preparations in the same way as magicians.<br>• Mystic adepts must purchase their Power Points with Karma (5 Karma each at character creation for a full Power Point,<br>with a maximum number of points equal to their Magic attribute rating).<br>• Mystic adepts can have any skills from the Enchanting,<br>Sorcery, or Conjuring skill groups.<br></i></sup></span></li>
+                  <li>Networker<span style="color:grey;"> NF 177</span><br><span style="color:darkgreen;"><sup><i>NETWORKER<br>(POSITIVE QUALITY)<br>COST: 5 KARMA<br>This character has an extensive social network of loose friends and casual contacts. This quality is often found in reporters, business managers, and small-time musicians who may cast a wide but shallow social net. The cost of all contacts is reduced by 1, to a minimum cost of 1.</i></sup></span></li>
+                  <li>Too Pretty To Hit<span style="color:grey;"> RG 127</span></li>
+                </ul>
+              </td>
+              <td style="width:50%;">
+                <ul style="margin-left:0px;">
+                  <li>Creature of Comfort (High)<span style="color:grey;"> RF 153</span><br><span style="color:darkgreen;"><sup><i>Creature Of Comfort<br>BONUS:10, 17, OR 25 KARMA	<br>REQUIRES:NONE<br>RATING:NONE<br>SOURCE:SR5:RF<br>For the character with this quality, the rewards of a job well done are the finer things in life. Unfortunately, one can quickly get attached to the comforts one has acquired, making the fall seem ever so higher. At the 10 Karma level, the character is used to a Middle Lifestyle, at the 17 level a High, and 25, it’s Luxury all the way, baby.<br><br>For every day that the character must spend “slumming” it in a lower Lifestyle category, the irritable character suffers a –1 penalty to all Social and Healing tests per Lifestyle category below his chosen level. For example, if the character takes this Quality at the High Lifestyle level and is forced to stay in a Squatter Lifestyle, he will suffer –3 to all Social and Healing tests. Life just isn’t worth living without Cognac.<br><br></i></sup></span></li>
+                  <li>Social Stress (Metaracism)<span style="color:grey;"> SR5 85</span><br><span style="color:darkgreen;"><sup><i>SOCIAL STRESS<br>BONUS: 8 KARMA<br>Whether as a result of loss or trauma or due to innate psychological makeup, the Social Stress quality burdens the character with emotions that interfere with his ability to interact with others. A specific cause and trigger for the Social Stress must be established. For example, if his Social Stress is caused by survivor’s guilt after the loss of a close friend, unexpectedly encountering someone who looks similar to the lost friend will heighten stress. When a character is using Leadership or Etiquette skills, reduce the number of 1s required to glitch the test by 1. Gamemasters should call for more Social Tests for characters with Social Stress to determine how a character reacts to others, particularly if a situation related to the cause of their stress arises.<br></i></sup></span></li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td class="fill33">
+          <table class="stats general">
+            <tr>
+              <td colspan="3">
+                <div class="bigheader">[Contacts]</div>
+              </td>
+            </tr>
+            <tr class="smallheader">
+              <td>Contact</td>
+              <td>Location</td>
+              <td>C/L</td>
+            </tr>
+            <tr>
+              <td>Andrei Shaposhnikov (Fixer)</td>
+              <td>Old Everett</td>
+              <td>6/1</td>
+            </tr>
+            <tr>
+              <td colspan="3"><span style="color:darkgreen;"><sup><i>Andrei is a small-time fixer working the Seattle Sea Run.  An emigrant from Russia, his thick accent is probably what endears him to the smugglers that run through the Bay, giving him the margin he needs to survive in the friendly business of gun-running, BTL-peddling, and drug dealing.  Anja met him through a run hauling a crate of Nitro down the coast with a pair of grizzled trolls.  When one of them got possessed by an offended fish spirit (the crate was leaking), Anja managed to talk it down and stop the troll from rolling the entire shipment into the river.  Andrei gave her a small bonus and suggested she, "Come backh and have a meal, hyu know, ah?"<br><br>Andrei is a big fellow - tall, broad, and fat.  He has his scruffy sandy-blonde hair in a combover, a goatee, and he favors slightly ill-fitting suits.  Despite emigrating, he's still a staunch Russian nationalist.  He runs a fish and chip shop (at least, that's what he says they are) out of Old Everett, which conveniently provides him a reason to constantly be at the docks.</i></sup></span></td>
+            </tr>
+            <tr style="background-color:lightgrey;">
+              <td>Boris Kuznetsov (Coyote (Water))</td>
+              <td>Lowell</td>
+              <td>2/1</td>
+            </tr>
+            <tr style="background-color:lightgrey;">
+              <td colspan="3"><span style="color:darkgreen;"><sup><i>Despite the one time he tried to shoot Anja in the leg, Boris is still on (shaky) speaking terms with Anja.  Having managed quite a few drug runs thanks to Anja's help through the Chugach, he's comfortable working with her to get things in and out of Seattle.  He's done enough for the Vory that he doesn't need to drive the boats all the way down the Bering himself anymore; he works the Bay, bribing the right officers and blackmailing, threatening, or disposing of the wrong ones.  <br><br>Boris is a thin, nervous-looking Russian ex-pat - the stress of constantly getting boats full of novacoke past KE isn't doing much for his attempts to bulk up, nor is the amount of novacoke he fires up his nose.  He's about the same size and weight as a human, with a wickedly receding hairline and thin, forward-protruding tusks.  If he's not working, you can usually find him laid out in a bed-by-night by the docks during the day, sleeping off a bender.</i></sup></span></td>
+            </tr>
+            <tr>
+              <td>Bruce James Bay (Infobroker)</td>
+              <td>Laurelhurst</td>
+              <td>1/2</td>
+            </tr>
+            <tr>
+              <td colspan="3"><span style="color:darkgreen;"><sup><i>Night shift manager for the unnamed bar that takes up the main floor of the Spokes.  A younger man, it's hard to tell just from talking to him if he's a dropout from U-Dub or just likes the nightlife - he's got tats running up his arms, a septum piercing, and a pair of neon cybereyes to go with his lime-green ponytail.  <br><br>He does mix a decent soygarita, though, so Anja has yet throw her drink in his face when he starts hitting on her.  For now, she's let him know that she's new in town and looking for work, and Bruce gave her the most irritating wink and said, "I think I know what kind of work you mean."  If he comes back with a part-time job at a bunraku, she might pistol whip him, but he's not that dumb.  Probably.</i></sup></span></td>
+            </tr>
+            <tr style="background-color:lightgrey;">
+              <td>Ethan Sinclair (Programmer)</td>
+              <td>ACHE</td>
+              <td>1/2</td>
+            </tr>
+            <tr style="background-color:lightgrey;">
+              <td colspan="3"><span style="color:darkgreen;"><sup><i>Ethan is a programmer of some skill employed by the Government of Seattle.  Born and raised in the shadows of the SCIRE arcology, he developed an early fascination with technology and its potential - particularly its potential to cause mass destruction.  With a natural talent for coding and an insatiable curiosity, Ethan quickly rose through the ranks and now works as an Emerald Grid DemiGOD in the employ of the city working out of the upper levels of the ACHE.<br><br>Ethan is a lanky Caucasian man with messy dark hair that falls over his slightly pale face, the bangs hiding his unobtrusive datajack. He wears thin-rimmed glasses, which accentuate his keen and observant eyes. His wardrobe typically consists of comfortable office casual attire, often opting for dark-colored clothing that blends in with the urban sprawl of Seattle.  When he's out to party, he switches it out for more exotic cybergoth synthleather and PVC, exposing the bioluminescent circuitry tattoos covering the majority of his body.  If you ask him, he'll explain how each chip or capacitor represents another one of his little coding breakthroughs or Matrix crime busts. <br><br>Ethan met Two Devils on a pub crawl through the Spokes - 2D was dancing (artlessly, she's not particularly trained), and he tried to pick her up.  He didn't immediately succeed, but Anja humored the extended explanation of his refactoring of skillsoft subscriptions with the city's emancipation, and for that she got got his commcode.</i></sup></span></td>
+            </tr>
+            <tr>
+              <td>Hellebore (SIN Forger)</td>
+              <td>Tarislar</td>
+              <td>3/1</td>
+            </tr>
+            <tr>
+              <td colspan="3"><span style="color:darkgreen;"><sup><i>An elven woman on indeterminate age, Hellebore (nee. Nessa Blaine, though this is unknown to 2D) keeps her dark hair cut into shoulder-length waves, with red highlights peeking through the igneous gloom of Puyallup when the ash clears.  Her tasteful makeup and manicured brows suggest a career in PR, but a certain spark dancing behind her dark brown eyes suggests a chaos entirely unsuited to a service job.  Thin even for an elf, her triangular figure and pointed chin lend her a certain sullenness, made worse by her squinting against the acidic air of Puyallup.  Black cocktail dress and matching leather (leather!) gloves would say that she's hitting the club to find her latest dance partner, but she lacks even the most minor biosculpting; the most obviously dangerous thing about her seems to be her heavy platform boots.<br><br>Hellebore is demure and approachable, but easily guides conversations away from her past.  From what Two Devils was able to gather, she was a minor social adept who got involved in "the local politics" during the Tir depression and subsequent terror attacks.  She's been a minor fixture in Tarislar since her departure post-election, arranging false visas and the occasional fixing work on behalf of the more conservative political actors on both sides of the Tir border.  <br><br>Besides forging IDs and occasionally arranging runs, she makes pocket cred as a chemist and demolitionist, which means she has frequent need to pick up deliveries from the Vory - and so she met Two Devils.  The novelty of the standard parade of brick-shaped Slavs carrying equally brick-shaped sacks of coke being interrupted by an obviously nonplussed elf!  That was enough for her to at least give 2D a commcode and set her up with Bruce as a place to stay where she wouldn't get her immediately thrown in the ACHE.  After all, she might be useful..</i></sup></span></td>
+            </tr>
+            <tr style="background-color:lightgrey;">
+              <td>Hemmet McCoy (Lawyer)</td>
+              <td>Tacoma</td>
+              <td>3/1</td>
+            </tr>
+            <tr style="background-color:lightgrey;">
+              <td colspan="3"><span style="color:darkgreen;"><sup><i>A double MThaum/JS from University of Colorado, Hemmet is a sorcerer, student of law, and a royal asshole.  One of the many SURGE dwarves who displayed severe albinism during the Year of the Comet, Hemmet's metaexpression also meant an  Awakening that would get him out of his family of seven in Fort McMurray.<br><br>Having completed two degrees didn’t stop Hemmet, surly and vengeful by nature, from settling a few too many problems with his sharp tongue and the occasional Ball Lightning, so he decided to take an extended break after finishing his master’s thesis, at University of Colorado, moving to Seattle through the UCAS quarter and opening a barrister's office specialized in magical law.  An acquaintance of Hellebore, he often acts as a point of contact between her network and nominally more legal enterprises, with 2D occasionally helping them both as a gofer with a vested interest in staying quiet.<br><br>Short, squat, and utterly colorless, Hemmet makes up for it with his fiery personality - he never lets a grudge die, and even if they die sometimes he'll remember them and laugh.  He favors a charcoal-grey armored jacket and matching wide-brimmed hat outdoors, the better to keep unburnt.  The matte colors don't do his veiny complexion any favors, and his shock of white hair is frequently scorched.  <br><br>Rumors saying that he ran the shadows in Denver as Gasflare, a magical demolitionist for hire, are unconfirmed but would be the least surprising thing possible.</i></sup></span></td>
+            </tr>
+            <tr>
+              <td>Hurit (Talismonger)</td>
+              <td>Magnuson Park (Windermere)</td>
+              <td>1/6</td>
+            </tr>
+            <tr>
+              <td colspan="3"><span style="color:darkgreen;"><sup><i>Though not exactly itinerant, Anja spends a lot of time walking.  She met Hurit along Wolf Bay, fishing.  Bizarre as it was, Anja couldn't help but ask how she wasn't already dead of mercury poisoning.<br><br>Hurit appreciated Anja's droll nature, teaching her a bit of Algonkin and trying to coax her to sing.  In truth, Hurit is a Mouse Shaman; she stays around Seattle to watch over the little lives that hide in man's shadow, keeping things in balance.  Every now and then she'll ask Anja for a little favor - open a dumpster here, kick out a boarded-up window there.  Anja obliges, because why not?<br><br>Hurit is a First Nations woman of indeterminate tribe - Hurit hasn't volunteered, and Anja's too polite to pry.  Just past middle age, she keeps her fine black hair in a short bob over a surprisingly unwrinkled face.  She dresses practically; waders and overalls for fishing, jeans, jacket, and boots otherwise.  Hurit doesn't have a commlink or even an LTG; when she feels like talking, she'll call a mouse spirit and ask it to guide her.  They don't mind.</i></sup></span></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td class="fill66" colspan="2">
+          <table class="stats armory">
+            <tr>
+              <td colspan="8">
+                <div class="bigheader">[Ranged Weapons]</div>
+              </td>
+            </tr>
+            <tr class="smallheader">
+              <td>Weapon</td>
+              <td>DV</td>
+              <td>AP</td>
+              <td>Mode</td>
+              <td>RC</td>
+              <td>Ammo</td>
+              <td>Accuracy</td>
+              <td>Pool</td>
+            </tr>
+            <tr>
+              <td rowspan="2"><span>Ares Viper Slivergun<span style="color:grey;"> SR5 426</span><br><span style="color:darkgreen;"><sup><i>Ares Viper Slivergun: The sleek Slivergun pairs the undeniably winning combo of burst-fire capability and built-in sound suppression (an integral silencer, p. 432) with its large magazine capacity. It fires metal slivers that count as flechette ammunition, which is factored into the weapon’s damage code.</i></sup></span></span><ul>
+                  <li><span style="color:grey;">Sound Suppressor<span style="color:grey;"> SR5 432</span></span></li>
+                </ul>
+              </td>
+              <td>9P(f)</td>
+              <td>+4</td>
+              <td>SA/BF</td>
+              <td>2</td>
+              <td>30(c)</td>
+              <td>4</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td colspan="7">
+                <table style="border-style:solid; border-width:1px; border-color:lightgrey; width:100%; cellpadding: 2; cellspacing: 0;">
+                  <tr>
+                    <th style="text-align: center; vertical-align: middle; width: 36%;">Range</th>
+                    <th style="text-align: center; vertical-align: middle; width: 16%;">S</th>
+                    <th style="text-align: center; vertical-align: middle; width: 16%;">M</th>
+                    <th style="text-align: center; vertical-align: middle; width: 16%;">L</th>
+                    <th style="text-align: center; vertical-align: middle; width: 16%;">E</th>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center; vertical-align: middle;">Heavy Pistols</td>
+                    <td style="text-align: center; vertical-align: middle;">0-5</td>
+                    <td style="text-align: center; vertical-align: middle;">6-20</td>
+                    <td style="text-align: center; vertical-align: middle;">21-40</td>
+                    <td style="text-align: center; vertical-align: middle;">41-60</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center; vertical-align: middle;">Heavy Pistols</td>
+                    <td style="text-align: center; vertical-align: middle;">0-5</td>
+                    <td style="text-align: center; vertical-align: middle;">6-20</td>
+                    <td style="text-align: center; vertical-align: middle;">21-40</td>
+                    <td style="text-align: center; vertical-align: middle;">41-60</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="8">
+                <hr>
+              </td>
+            </tr>
+            <tr>
+              <td>Ammo: Flechette Rounds (Heavy Pistols) ×30<span style="color:grey;"> SR5 434</span></td>
+              <td>+2P(f)</td>
+              <td>+5</td>
+              <td colspan="5"></td>
+            </tr>
+            <tr>
+              <td>Spare Clip (Ares Viper Slivergun)<span style="color:grey;"> SR5 433</span><br><span style="color:darkgreen;"><sup><i>Spare clip: A spare clip comes unloaded but can hold the maximum rounds for the weapon. Each clip is spe- cific to the weapon you buy it for, but they all cost the same. And yes, it’s technically a detachable box maga- zine, but the Cityspeak word for it is so popular these days that even the catalogs call them clips.</i></sup></span></td>
+              <td>+0</td>
+              <td>+0</td>
+              <td colspan="5"></td>
+            </tr>
+          </table><br><table class="stats armory">
+            <tr>
+              <td colspan="6">
+                <div class="bigheader">[Melee Weapons]</div>
+              </td>
+            </tr>
+            <tr class="smallheader">
+              <td>Weapon</td>
+              <td>DV</td>
+              <td>AP</td>
+              <td>Reach</td>
+              <td>Accuracy</td>
+              <td>Pool</td>
+            </tr>
+            <tr>
+              <td>Survival Knife<span style="color:grey;"> SR5 422</span><ul>
+                  <li><span style="color:grey;">Survival Knife Bonuses<span style="color:grey;"> SR5 422</span></span></li>
+                  <li><span style="color:grey;">Survival Knife Wireless Bonuses<span style="color:grey;"> SR5 422</span></span></li>
+                </ul>
+              </td>
+              <td>3P</td>
+              <td>-1</td>
+              <td>0</td>
+              <td>5</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td>Unarmed Attack<span style="color:grey;"> SR5 132</span><ul></ul>
+              </td>
+              <td>1S</td>
+              <td>-</td>
+              <td>0</td>
+              <td>3</td>
+              <td>5</td>
+            </tr>
+          </table>
+        </td>
+        <td class="fill33">
+          <table class="stats armory">
+            <tr>
+              <td colspan="3">
+                <div class="bigheader">[Armor]</div>
+              </td>
+            </tr>
+            <tr class="smallheader">
+              <td></td>
+              <td>Armor</td>
+              <td>Value</td>
+            </tr>
+            <tr>
+              <td> ⚫</td>
+              <td>Chameleon Suit<span style="color:grey;"> SR5 437</span><br><span style="color:darkgreen;"><sup><i>Chameleon suit: This full-body suit has a smart ruthe- nium polymer coating supported by a sensor suite; the technology allows it to scan its surroundings and repli- cate the images at the proper perspectives. Add 2 to your limit when you make Sneaking tests to hide. A chame- leon suit is also armored for the wearer’s protection.</i></sup></span><ul></ul>
+              </td>
+              <td style="text-align: right">9</td>
+            </tr>
+            <tr>
+              <td> ⚫</td>
+              <td>Helmet<span style="color:grey;"> SR5 438</span><br><span style="color:darkgreen;"><sup><i>Helmet: Helmets come in a wide variety of shapes and sizes and protect your noggin from trauma. Helmets have Capacity 6 for being tricked out with accessories like trode nets and vision enhancements.</i></sup></span><ul></ul>
+              </td>
+              <td style="text-align: right">+2</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td><strong>Total</strong></td>
+              <td style="text-align: right"><strong>10</strong></td>
+            </tr>
+          </table><br></td>
+      </tr>
+      <tr>
+        <td class="fill66" colspan="2"><br><table class="stats matrix">
+            <tr>
+              <td colspan="5">
+                <div class="bigheader">[Matrix Devices]</div>
+              </td>
+            </tr>
+            <tr class="smallheader">
+              <td>Device</td>
+              <td>Rating</td>
+              <td>CM</td>
+              <td>A/S/D/F</td>
+              <td>Programs</td>
+            </tr>
+            <tr>
+              <td><strong>Meta Link</strong><span style="color:grey;"> SR5 438</span></td>
+              <td>1</td>
+              <td>9</td>
+              <td>0/0/1/1</td>
+              <td>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <ul>
+                  <li><strong>Gear</strong></li>
+                  <li><span>Commlink Functionality<span style="color:grey;"> SR5 438</span></span><ul>
+                      <li><span>Camera, Micro<span style="color:grey;"> SR5 443</span></span></li>
+                      <li><span>Chip Player<span style="color:grey;"> SR5 438</span></span></li>
+                      <li><span>Credstick Reader<span style="color:grey;"> SR5 438</span></span></li>
+                      <li><span>Earbuds [R1]
+      <span style="color:grey;"> SR5 445</span></span></li>
+                      <li><span>GPS Guidance System<span style="color:grey;"> SR5 438</span></span></li>
+                      <li><span>Micro Trid-Projector<span style="color:grey;"> SR5 438</span></span></li>
+                      <li><span>Music Player<span style="color:grey;"> SR5 438</span></span></li>
+                      <li><span>RFID Tag Scanner<span style="color:grey;"> SR5 438</span></span></li>
+                      <li><span>Shock- and Water-Resistant Case<span style="color:grey;"> SR5 438</span></span></li>
+                      <li><span>Touchscreen Display<span style="color:grey;"> SR5 438</span></span></li>
+                    </ul>
+                  </li>
+                </ul>
+              </td>
+              <td colspan="4">
+                <ul>
+                  <li><span>Receiver<span style="color:grey;"> DT 62</span><br><span style="color:darkgreen;"><sup><i>RECEIVER<br>Just plug this dongle into your commlink and you get Noise Reduction 2 for your commlink and all slaved devices! Great for spam zones!</i></sup></span></span></li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td class="fill33"></td>
+      </tr>
+      <tr>
+        <td class="fill66" colspan="2">
+          <table class="stats magic">
+            <tr>
+              <td colspan="7">
+                <div class="bigheader">[Spells]</div>
+              </td>
+            </tr>
+            <tr class="smallheader">
+              <td>Spell</td>
+              <td>Type</td>
+              <td>Range</td>
+              <td>Duration</td>
+              <td>Damage</td>
+              <td>Drain</td>
+              <td>Description</td>
+            </tr>
+            <tr>
+              <td colspan="7">Combat Spells</td>
+            </tr>
+            <tr>
+              <td>Clout<span style="color:grey;"> SR5 284</span></td>
+              <td>P</td>
+              <td>LOS</td>
+              <td>I</td>
+              <td>0S</td>
+              <td>F-3</td>
+              <td>Indirect</td>
+            </tr>
+            <tr>
+              <td colspan="7">Health Spells</td>
+            </tr>
+            <tr>
+              <td>Heal<span style="color:grey;"> SR5 288</span></td>
+              <td>M</td>
+              <td>T</td>
+              <td>P</td>
+              <td>None</td>
+              <td>F-4</td>
+              <td>Essence</td>
+            </tr>
+            <tr>
+              <td colspan="7">Manipulation Spells</td>
+            </tr>
+            <tr>
+              <td>Control Thoughts<span style="color:grey;"> SR5 293</span></td>
+              <td>M</td>
+              <td>LOS</td>
+              <td>S</td>
+              <td>None</td>
+              <td>F-1</td>
+              <td>Mental</td>
+            </tr>
+          </table><br></td>
+        <td class="fill33">
+          <table class="stats magic">
+            <tr>
+              <td colspan="4">
+                <div class="bigheader">[Magic]</div>
+              </td>
+            </tr>
+            <tr>
+              <td>Awakened</td>
+              <td colspan="3"><strong>Mystic Adept</strong></td>
+            </tr>
+            <tr>
+              <td>Tradition</td>
+              <td colspan="3"><strong>Shamanic<span style="color:grey; font-size: 10px; vertical-align: bottom;"> (Materialization)</span></strong><span style="color:grey;"> SR5 279</span></td>
+            </tr>
+            <tr>
+              <td>Combat</td>
+              <td><strong>Spirit of Beasts</strong></td>
+              <td>Detection</td>
+              <td><strong>Spirit of Water</strong></td>
+            </tr>
+            <tr>
+              <td>Health</td>
+              <td><strong>Spirit of Earth</strong></td>
+              <td>Illusion</td>
+              <td><strong>Spirit of Air</strong></td>
+            </tr>
+            <tr>
+              <td>Manipulation</td>
+              <td><strong>Spirit of Man</strong></td>
+              <td>Drain</td>
+              <td><strong>13</strong></td>
+            </tr>
+          </table><br><table class="stats magic">
+            <tr>
+              <td>
+                <div class="bigheader">[Adept Powers]</div>
+              </td>
+            </tr>
+            <tr>
+              <td><span>Astral Perception<span style="color:grey;"> SR5 309</span></span></td>
+            </tr>
+            <tr>
+              <td><span>Authoritative Tone [R3]
+      <span style="color:grey;"> SGE 4</span></span></td>
+            </tr>
+            <tr>
+              <td><span>Improved Reflexes [R1]
+      <span style="color:grey;"> SR5 310</span></span></td>
+            </tr>
+            <tr>
+              <td><span>Kinesics [R3]
+      <span style="color:grey;"> SR5 310</span><br><span style="color:darkgreen;"><sup><i>KINESICS<br>Cost: 0.25 PP per level Kinesics grants you complete control over your body’s nonverbal and subconscious communication and social cues, even when you’re in stressful social situations. It includes facial expressions, body movements, eye movements, fluctuations in heart rate and blood pressure, and even control over sweat glands, making it difficult to gauge your emotional state and truthfulness. Add +1 to resist Social Tests and tests to read your emotions like Judge Intentions, assensing, or truthfulness tests.</i></sup></span></span></td>
+            </tr>
+            <tr>
+              <td><span>Nimble Fingers<span style="color:grey;"> SG 173</span><br><span style="color:darkgreen;"><sup><i>NIMBLE FINGERS<br>COST: 0.25 PP<br>Adepts with this ability have exceptional manual dexterity. In game terms, this grants +1 die to Palming Tests, Performance Tests where the adept plays a musical instruments that requires the use of fingers, or any tests where small tools or items are used (gamemaster’s discretion). Additionally, the Simple Actions Change Gun Mode, Insert Clip, Remove Clip, and Use Simple Device are now considered Free Actions.</i></sup></span></span></td>
+            </tr>
+            <tr>
+              <td><span>Traceless Walk<span style="color:grey;"> SR5 311</span><br><span style="color:darkgreen;"><sup><i>TRACELESS WALK<br>Cost: 1 PP You can move over surfaces—even snow, sand, or thin paper—without leaving visible traces. You make no noise through contact with the floor (though movement may still cause other sounds), and any hearing-based Perception Tests to detect you suffer a –4 dice pool penalty. You don’t trip ground-vibration or pressure sensors.<br>You can’t walk across liquid surfaces—you’re magical, not miraculous—but you can walk across deep snow without sinking. While you can be tracked by non-visual cues such as scent, even those Track Tests are more difficult and get a –2 dice pool penalty.</i></sup></span></span></td>
+            </tr>
+          </table><br><br></td>
+      </tr>
+      <tr>
+        <td class="fill66" colspan="2">
+          <table class="stats gear">
+            <tr>
+              <td colspan="2">
+                <div class="bigheader">[Gear]</div>
+              </td>
+            </tr>
+            <tr>
+              <td style="width:50%;">
+                <ul style="margin-left:0px;">
+                  <li><strong>Comms</strong></li>
+                  <li><span>Datachip ×10<span style="color:grey;"> SR5 440</span></span></li>
+                  <li><span>Micro-Transceiver<span style="color:grey;"> SR5 441</span></span></li>
+                  <li><span>Trodes<span style="color:grey;"> SR5 439</span></span></li>
+                  <li><strong>Medical</strong></li>
+                  <li><span>Slap Patch, Antidote Patch [R6]
+      <span style="color:grey;"> SR5 451</span></span></li>
+                  <li><span>Slap Patch, Stim Patch [R6]
+      <span style="color:grey;"> SR5 451</span></span></li>
+                  <li><span>Slap Patch, Trauma Patch<span style="color:grey;"> SR5 451</span></span></li>
+                </ul>
+              </td>
+              <td style="width:50%;">
+                <ul style="margin-left:0px;">
+                  <li><strong>Surveillance</strong></li>
+                  <li><span>Security Tags ×10<span style="color:grey;"> SR5 440</span></span></li>
+                  <li><span>Stealth Tags ×10<span style="color:grey;"> SR5 440</span></span></li>
+                  <li><strong>Tools</strong></li>
+                  <li><span>Chisel<span style="color:grey;"> SR5 447</span></span></li>
+                  <li><span>Crowbar<span style="color:grey;"> SR5 447</span></span></li>
+                  <li><span>Restraint, Plastic ×10<span style="color:grey;"> SR5 447</span></span></li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td class="fill33">
+          <table class="stats gear">
+            <tr>
+              <td>
+                <div class="bigheader">[ID/Credsticks]</div>
+              </td>
+            </tr>
+          </table><br><table class="stats gear">
+            <tr>
+              <td>
+                <div class="bigheader">[Lifestyle]</div>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>"The Spokes" - a bar and hostel in Laurelhurst favoured by arts students. (Low)</strong><br>(Seattle)<span style="color:grey;"> SR5 369</span><br>Cost: 2,000¥ (2,200¥) × 1 = 2,200¥;
+              <br><ul></ul>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td class="fill100" colspan="3">
+          <table class="stats description">
+            <tr>
+              <td>
+                <div class="bigheader">[Description]</div>
+              </td>
+            </tr>
+            <tr>
+              <td><div style="font-size:12pt;font-family:&quot;Microsoft Sans Serif&quot;;"><p style="font-size:8pt;margin:0;">As an Algonquin elf, Anja still shows her heritage; tan rather than fair, with dancing brown eyes instead of jewel tones. She still shows the height, fine bones, and unearthly grace of her metatype, but she still prefers to lounge rather than pose, and she has no qualms about getting dirty (though she still appreciates hygiene). Her hair is dark, fine, and perfectly straight - when she Awakened, she noticed her hair shifted from the ruddy brown to the glossy blue-black of raven feathers. She wears it waist-length, knowing it flatters her, even though it means she has to spend twenty minutes braiding it before a run. She usually dresses in plain Western-style clothes - band shirts, hoodies, jeans, tank tops, and the occasional blouse, limiting her Amerind heritage to accessories.</p></div></td>
+            </tr>
+          </table><br><table class="stats description">
+            <tr>
+              <td>
+                <div class="bigheader">[Background]</div>
+              </td>
+            </tr>
+            <tr>
+              <td><div style="font-size:12pt;font-family:&quot;Microsoft Sans Serif&quot;;"><p style="font-size:8pt;margin:0;">Anja was born in the Athabaskan Council to an Algonquin family in marshy Anchorage. If pressed, she says they were nice, for hippies - for people who moved from Edmonton to the middle of nowhere, they spent a lot of time jacked in. She suspects, privately, that they were corp spiders, maybe even DemiGODs; they never had trouble eating, even though she doesn't remember ever seeing them work.</p><p style="font-size:8pt;margin:0;"><br></p><p style="font-size:8pt;margin:0;">She prefers not to discuss her parents, though, because being an elf made her home life miserable. She remembers hearing them argue about "the policlub" through the door as a child, though it took her a while to understand what that meant. She got used to hearing "breeder", though, and a lot worse. She never found out if she was an incredibly unlucky genetic byblow or if mom had a Manitou on the side; things got worse until, eventually, dad stopped talking to mom, and mom stopped talking to her.</p><p style="font-size:8pt;margin:0;"><br></p><p style="font-size:8pt;margin:0;">When she got old enough, Anja started spending a lot of time outside the house; having nothing better to do in between correspondence lessons, she started making a bit of nuyen working the Seattle Sea Run, guiding Russian smugglers through the tougher parts in the Alaskan range. She picked up a lot of useful skills there: how to think fast, talk faster, and dodge the Long Arms when they came looking for any dirty drek to clean up. &nbsp;Most importantly, she learned to watch her ass, especially the first time some Boris with an unpronounceable last name tried to shoot her in the leg as a distraction for the rangers.</p><p style="font-size:8pt;margin:0;"><br></p><p style="font-size:8pt;margin:0;">One day, though, as she hiked up through the mountains in the fall, Anja looked up at the moonless sky, and Raven came down to meet her. Settling firmly on her shoulder, she fished out the last bit of deer jerky from her jacket pocket before she started to talk. "I think you're wasting your time here," Raven drawled. "You can do better than hauling rucksacks of novacoke through the Chugach for the Vory. You're smart. You're fast. You smell nice. Why not spread your wings a little?"</p><p style="font-size:8pt;margin:0;"><br></p><p style="font-size:8pt;margin:0;">Anja didn't have time to decide if the talking bird was making a pun before Raven's beak jabbed her in the forehead. When she woke up the next morning, she was very alone, freezing cold, and all her food was gone. She came back home a very different girl than she let on (she just said she dyed her hair). Not that long after that, though, she pocketed the money she made and followed the next pack of Vor and their rucksacks of novacoke all the way to Seattle. </p><p style="font-size:8pt;margin:0;"><br></p><p style="font-size:8pt;margin:0;">After climbing off the speedboat, drying herself off, and getting a map downloaded, the slightly surprised receiving their shipment helped her quietly travel somewhere to stay where an aimless-looking elf with questionable ID wouldn't be too out-of-place. Since then, she's still getting her feet under her, but she's getting tired of calling an air spirit every night to smother the bedbugs before she sleeps. &nbsp;She's started favouring the bar downstairs, listening for tips, and she asked one of the Vory who made it in Seattle to set her up with some real gear. It might be time to get some work.</p></div></td>
+            </tr>
+          </table><br><table class="stats description">
+            <tr>
+              <td>
+                <div class="bigheader">[Concept]</div>
+              </td>
+            </tr>
+            <tr>
+              <td>Wayward daughter; a little spoiled, a little vain. Can she handle Seattle? Maybe.</td>
+            </tr>
+          </table><br><table class="stats description">
+            <tr>
+              <td>
+                <div class="bigheader">[Notes]</div>
+              </td>
+            </tr>
+            <tr>
+              <td><div style="font-size:12pt;font-family:&quot;Microsoft Sans Serif&quot;;"><p style="font-size:8pt;margin:0;">She likes city animals - especially ravens and other corvids, naturally. She even likes other metahumans, annoying though some of them can be.</p><p style="font-size:8pt;margin:0;"><br></p><p style="font-size:8pt;margin:0;"> She enjoys company, but she doesn't feel any particular need to inject small talk; often, if the weather is nice, she'll just close her eyes and enjoy the breeze while they hang out. Her idea of a good time is to have a cup of coffee (the real thing, preferrably!) outside, or maybe to go see a local show or go dancing. Since arriving in Seattle she's started developing a weird interest in goblin rock - so far, the worst she's gotten at a Bloody Tusks show is a stray "Watch it, keeb!"</p><p style="font-size:8pt;margin:0;"><br></p><p style="font-size:8pt;margin:0;">Anja enjoys nature, which means occasionally sneaking out from dingy Seattle into Salish territory. &nbsp;Stargazing and swimming were fun in Anchorage, and they're fun in Seattle, though she knows better than to take a dip in the Bay. She secretly tries to pick up the occasional bit of history about her Algonquin heritage when she has some time, usually while visiting Hurit. Sometimes she'll sneak into the U-Dub library to do a little studying, and just to practice being unnoticeable - nobody seems to have caught on just yet. </p><p style="font-size:8pt;margin:0;"><br></p><p style="font-size:8pt;margin:0;">Though she won't admit it to herself, she is a bit vain - the magic running through her has left its mark on her, and she doesn't mind showing off a bit. She's a bit too practical to dress up in haute couture, though, at least if it can't stop a bullet. She's a bit spoiled, too; camping is one thing, but she grew up eating real vegetables and cleaning herself with hot water, so she sometimes turns her (flawless, perfectly aquiline) nose up at inconvenient times.</p><p style="font-size:8pt;margin:0;"><br></p><p style="font-size:8pt;margin:0;">While working, she tries to be a moderating influence in a group of runners, but her skills run (mostly) elsewhere than leadership. She volunteers advice readily, but she won't do more than suggest that a course of action is unwise - if something goes sour, she's confident in her ability to distance herself from the run, metaphorically or literally, and equally confident that she can come back later for an even bigger slice of the pie.</p><p style="font-size:8pt;margin:0;"><br></p><p style="font-size:8pt;margin:0;">On the job, Anja dresses professionally up until it's time to work - then the ruthenium shifts to the greys and blacks of concrete. Her first impulse is to sneak past any trouble, which she is fairly talented at, reinforcing her unnatural agility with spells if necessary. Failing that, she'll often summon minor spirits to distract and lead away marks, to steal, to sabotage security systems, or to scout alternate routes. If she's caught, she'll immediately try and lie her way out of trouble, again forcing the issue with spells if she has to. She hates confrontation, but she doesn't like jail, either - if all else fails, she keeps her pistol in a snap holster on the small of her back, and she shoots for the head.</p></div></td>
+            </tr>
+            <tr>
+              <td></td>
+            </tr>
+          </table><br></td>
+      </tr>
+    </table>
+  </body>
+</html>
